@@ -1,0 +1,8 @@
+<apex:page showheader="false" sidebar="false" cache="false" contenttype="text/html" controller="BoxConnect">
+    <apex:form >
+        <apex:commandbutton id="connectToBox" value="Connect to Box" action="{!boxConnect}">
+        </apex:commandbutton>
+        <apex:outputtext id="outputText" value="{!valueToShow}">
+        </apex:outputtext>
+    </apex:form>
+</apex:page>
